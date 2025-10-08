@@ -1,0 +1,74 @@
+@import './var.css';
+@import './link.css';
+@import './vp-code.css';
+@import './marker.css';
+@import './custom-block.css';
+@import './sidebarIcon.css';
+
+/* 首页图标 */
+iconify-icon {
+  display: inline-block;
+  vertical-align: -0.125em;
+  width: 1em;
+  height: 1em;
+}
+
+.i-mr {
+  margin-right: var(--lm-imr);
+}
+
+/* 表格样式 */
+.vp-doc thead,
+.vp-doc th,
+.vp-doc td {
+    /* padding: 8px; */
+    /* white-space: nowrap; */
+}
+
+/* 团队页面 */
+.VPTeamPage[data-v-5f7da39d] {
+    margin: 0 !important;
+}
+
+.VPTeamPageTitle[data-v-bf2cbdac] {
+    padding: 0 !important;
+}
+
+
+/* 内嵌代码块 */
+.vp-doc :not(pre, h1, h2, h3, h4, h5, h6) > code {
+    color: var(--vp-c-brand-1);
+}
+
+/* 引用 */
+.vp-doc blockquote {
+    border-radius: 10px;
+    padding: 10px 16px;
+    background-color: var(--vp-c-gray-soft);
+    opacity: 0.9;
+}
+
+/* 标题 */
+.VPDoc h1 {
+    background: -webkit-linear-gradient(10deg, #2575fc 5%, #6a11cb 15%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* 加粗 */
+.vp-doc strong {
+    font-weight: 600;
+    color: var(--vp-c-brand-1);
+}
+
+/* 下划线 */
+u {
+    text-decoration: underline;
+    text-underline-offset: 4px; /* 下划线与文本的距离 */
+    text-decoration-thickness: 1px; /* 可选：设置下划线粗细 */
+    text-decoration-color: #ff0844; /* 可选：设置下划线颜色 */
+}
+
+
+
